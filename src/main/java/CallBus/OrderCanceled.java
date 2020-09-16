@@ -1,4 +1,4 @@
-package TaxiCall;
+package CallBus;
 
 public class OrderCanceled extends AbstractEvent {
 

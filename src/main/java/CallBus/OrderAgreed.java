@@ -1,6 +1,6 @@
-package TaxiCall;
+package CallBus;
 
-public class OrderDeclined extends AbstractEvent {
+public class OrderAgreed extends AbstractEvent {
 
     private Long driverId;
     private String status;

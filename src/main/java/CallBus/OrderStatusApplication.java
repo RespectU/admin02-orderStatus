@@ -1,5 +1,5 @@
-package TaxiCall;
-import TaxiCall.config.kafka.KafkaProcessor;
+package CallBus;
+import CallBus.config.kafka.KafkaProcessor;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;

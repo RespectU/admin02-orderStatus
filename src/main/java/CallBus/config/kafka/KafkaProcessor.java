@@ -1,4 +1,4 @@
-package TaxiCall.config.kafka;
+package CallBus.config.kafka;
 
 import org.springframework.cloud.stream.annotation.Input;
 import org.springframework.cloud.stream.annotation.Output;

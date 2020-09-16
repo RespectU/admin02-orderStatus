@@ -1,11 +1,12 @@
-package TaxiCall;
+package CallBus;
 
-public class OrderAgreed extends AbstractEvent {
+public class Ordered extends AbstractEvent {
 
     private Long driverId;
-    private String status;
+    private String customerName;
     private String location;
     private Long orderId;
+    private String status;
 
     public Long getDriverId() {
         return driverId;
@@ -14,12 +15,12 @@ public class OrderAgreed extends AbstractEvent {
     public void setDriverId(Long driverId) {
         this.driverId = driverId;
     }
-    public String getStatus() {
-        return status;
+    public String getCustomerName() {
+        return customerName;
     }
 
-    public void setStatus(String status) {
-        this.status = status;
+    public void setCustomerName(String customerName) {
+        this.customerName = customerName;
     }
     public String getLocation() {
         return location;
@@ -34,5 +35,13 @@ public class OrderAgreed extends AbstractEvent {
 
     public void setOrderId(Long orderId) {
         this.orderId = orderId;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
     }
 }

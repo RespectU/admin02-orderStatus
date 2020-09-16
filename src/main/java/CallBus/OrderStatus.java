@@ -1,7 +1,6 @@
-package TaxiCall;
+package CallBus;
 
 import javax.persistence.*;
-import java.util.List;
 
 @Entity
 @Table(name="OrderStatus_table")
